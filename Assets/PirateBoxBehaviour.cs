@@ -8,7 +8,7 @@ public class PirateBoxBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    Debug.Log("start");    
+     
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class PirateBoxBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("trigger"); 
+      
         if (other.tag == "Player")
         {
             //play animation
