@@ -49,4 +49,16 @@ public class Canon_behaviour : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
+
+
+    public void PressYes() 
+    {
+        HideUI();
+        ShootCannon();
+    }
+
+    public void PressNo() 
+    {
+        HideUI();
+    }
 }
